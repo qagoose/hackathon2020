@@ -11,6 +11,8 @@ RSpec.shared_examples "Product Details" do |size|
 
     click_shoe 'Appli Air x Night'
 
+    expect(@page).to have_css_property element_how: 'id', element_what: 'old_price', css_property: 'text-decoration', property_value: 'line-through'
+    expect(@page).to have_css_property element_how: 'id', element_what: 'old_price', css_property: 'color', property_value: '#999'
     expect(@page).to have_header 'Appli Air x Night'
     expect(@page).to have_shoe_image 'grid/img/products/shoes/1.jpg'
     expect(@page).to have_sku 'MTKRY-001'

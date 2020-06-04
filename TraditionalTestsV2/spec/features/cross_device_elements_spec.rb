@@ -59,6 +59,14 @@ RSpec.describe 'Cross device elements' do
       expect(@page).to show_menu_category_link 'RUNNING'
       expect(@page).to show_menu_category_link 'TRAINING'
     end
+
+    it 'hides the filter text' do
+      expect(@page).to_not show_filter_text
+    end
+
+    it 'hides the filter icon' do
+      expect(@page).to_not show_filter_icon
+    end
   end
 
   context 'at tablet size' do
@@ -76,6 +84,14 @@ RSpec.describe 'Cross device elements' do
       expect(@page).to have_quick_links links: %w[About\ us Faq Help My\ account Blog Contacts], expanded: true
       expect(@page).to have_contacts contacts: ['155 Bovet Rd #600', 'San Mateo, CA 94402', 'srd@applitools.com'], expanded: true
       expect(@page).to have_keep_in_touch expanded: true
+    end
+
+    it 'shows the filter text' do
+      expect(@page).to show_filter_text
+    end
+
+    it 'shows the filter icon' do
+      expect(@page).to show_filter_icon
     end
 
     it 'does not show the search expansion button' do
@@ -99,6 +115,12 @@ RSpec.describe 'Cross device elements' do
       expect(@page).to_not show_menu_category_link 'RUNNING'
       expect(@page).to_not show_menu_category_link 'TRAINING'
     end
+
+    it 'does not show the heart icon in the header' do
+      expect(@page).to_not show_header_heart
+    end
+
+
   end
 
   context 'at mobile size' do
@@ -138,6 +160,14 @@ RSpec.describe 'Cross device elements' do
       expect(@page).to_not show_menu_category_link 'WOMEN'
       expect(@page).to_not show_menu_category_link 'RUNNING'
       expect(@page).to_not show_menu_category_link 'TRAINING'
+    end
+
+    it 'hides the filter text' do
+      expect(@page).to_not show_filter_text
+    end
+
+    it 'shows the filter icon' do
+      expect(@page).to show_filter_icon
     end
   end
 end

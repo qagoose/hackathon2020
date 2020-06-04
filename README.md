@@ -76,18 +76,14 @@ version control, but you can generate and open them if you're familiar enough wi
 I wont include instructions on how to use allure, as it's quite in depth -- requiring multiple commands and tools -- 
 and not necessary to judge this entry.
 
-### Some bugs missed during traditional approach
+### Bugs potentially missed during traditional approach
 
-There were a couple of elements that I didn't notice changing while studying the website at different sizes in 
-order to run the cross browser elements test.
+I think I've corrected all the missed bugs between V1 and V2 of the traditional approach, but it's possible I've 
+missed 1 or 2.
 
-I've decided to not go back and add these into the traditional approach, as I feel like leaving them as 'missed bugs' is
-useful to __highlight one of the pitfalls of traditional test automation__. 
+I'm not too concerned over this, as I feel like leaving them as potentially 'missed bugs' is useful to __highlight one 
+of the pitfalls of traditional test automation__. 
 
 It's easy to miss something, and often things are intentionally left out of a test suite, because of the amount of time
-it would take to hook up matchers/assertions for each single element of a page. 
-
-This is a clear advantage to visual automated testing, and one that I feel would be unfair of me to 'hide' by going 
-back and correcting my mistakes with knowledge __only gained__ by running the visual tests.  
-
-I estimate it would take 1-2 hours to do this maintenance task. 
+it would take to hook up matchers/assertions for each single element of a page.  Then some of the bugs require you
+to check every css property, which is not an efficient use of time.

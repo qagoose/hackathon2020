@@ -84,6 +84,10 @@ RSpec::Matchers.define :have_discount do |discount|
   end
 end
 
-
+RSpec::Matchers.define :have_css_property do |element_how:, element_what:, css_property:, property_value:|
+  match do |driver|
+    driver.find_element(element_how.to_sym, element_what).css_value(css_property) == property_value
+  end
+end
 
 end

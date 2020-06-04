@@ -10,6 +10,8 @@ Task: 1, Test name: Cross device elements at laptop size does not show the searc
 Task: 1, Test name: Cross device elements at laptop size shows the grid options, Browser: chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
 Task: 1, Test name: Cross device elements at laptop size does not show product options, Browser: chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
 Task: 1, Test name: Cross device elements at laptop size shows menu categories, Browser: chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+Task: 1, Test name: Cross device elements at laptop size hides the filter text, Browser: chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+Task: 1, Test name: Cross device elements at laptop size hides the filter icon, Browser: chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size shows the filters, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the banner image, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the filter button, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
@@ -18,10 +20,13 @@ Task: 1, Test name: Cross device elements at tablet size shows a shoe with disco
 Task: 1, Test name: Cross device elements at tablet size shows a shoe without a discount, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the search bar, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size expands the footer links, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size shows the filter text, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size shows the filter icon, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size does not show the search expansion button, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size does not show the grid options, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size shows product options, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size does not show menu categories, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size does not show the heart icon in the header, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size shows the filters, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
 Task: 1, Test name: Cross device elements at mobile size shows the banner image, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
 Task: 1, Test name: Cross device elements at mobile size shows the filter button, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
@@ -34,6 +39,8 @@ Task: 1, Test name: Cross device elements at mobile size collapses the footer li
 Task: 1, Test name: Cross device elements at mobile size does not show the grid options, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size shows product options, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size does not show menu categories, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
+Task: 1, Test name: Cross device elements at mobile size hides the filter text, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
+Task: 1, Test name: Cross device elements at mobile size shows the filter icon, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
 Task: 3, Test name: Product details at laptop size shows product details, Browser: chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
 Task: 3, Test name: Product details at tablet size shows product details, Browser: chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 3, Test name: Product details at mobile size shows product details, Browser: chrome, Viewport: 516 x 700, Device: Mobile, Status: Fail
@@ -52,6 +59,8 @@ Task: 1, Test name: Cross device elements at laptop size does not show the searc
 Task: 1, Test name: Cross device elements at laptop size shows the grid options, Browser: firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
 Task: 1, Test name: Cross device elements at laptop size does not show product options, Browser: firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
 Task: 1, Test name: Cross device elements at laptop size shows menu categories, Browser: firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+Task: 1, Test name: Cross device elements at laptop size hides the filter text, Browser: firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+Task: 1, Test name: Cross device elements at laptop size hides the filter icon, Browser: firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size shows the filters, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the banner image, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the filter button, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
@@ -60,10 +69,13 @@ Task: 1, Test name: Cross device elements at tablet size shows a shoe with disco
 Task: 1, Test name: Cross device elements at tablet size shows a shoe without a discount, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the search bar, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size expands the footer links, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size shows the filter text, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size shows the filter icon, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size does not show the search expansion button, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size does not show the grid options, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size shows product options, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size does not show menu categories, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size does not show the heart icon in the header, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size shows the filters, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
 Task: 1, Test name: Cross device elements at mobile size shows the banner image, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
 Task: 1, Test name: Cross device elements at mobile size shows the filter button, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
@@ -76,6 +88,8 @@ Task: 1, Test name: Cross device elements at mobile size collapses the footer li
 Task: 1, Test name: Cross device elements at mobile size does not show the grid options, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size shows product options, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size does not show menu categories, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+Task: 1, Test name: Cross device elements at mobile size hides the filter text, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+Task: 1, Test name: Cross device elements at mobile size shows the filter icon, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
 Task: 3, Test name: Product details at laptop size shows product details, Browser: firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
 Task: 3, Test name: Product details at tablet size shows product details, Browser: firefox, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 3, Test name: Product details at mobile size shows product details, Browser: firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
@@ -94,6 +108,8 @@ Task: 1, Test name: Cross device elements at laptop size does not show the searc
 Task: 1, Test name: Cross device elements at laptop size shows the grid options, Browser: edge_chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
 Task: 1, Test name: Cross device elements at laptop size does not show product options, Browser: edge_chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
 Task: 1, Test name: Cross device elements at laptop size shows menu categories, Browser: edge_chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+Task: 1, Test name: Cross device elements at laptop size hides the filter text, Browser: edge_chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+Task: 1, Test name: Cross device elements at laptop size hides the filter icon, Browser: edge_chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size shows the filters, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the banner image, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the filter button, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
@@ -102,10 +118,13 @@ Task: 1, Test name: Cross device elements at tablet size shows a shoe with disco
 Task: 1, Test name: Cross device elements at tablet size shows a shoe without a discount, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size shows the search bar, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size expands the footer links, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size shows the filter text, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size shows the filter icon, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size does not show the search expansion button, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
 Task: 1, Test name: Cross device elements at tablet size does not show the grid options, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size shows product options, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at tablet size does not show menu categories, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Pass
+Task: 1, Test name: Cross device elements at tablet size does not show the heart icon in the header, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size shows the filters, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
 Task: 1, Test name: Cross device elements at mobile size shows the banner image, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
 Task: 1, Test name: Cross device elements at mobile size shows the filter button, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
@@ -118,6 +137,8 @@ Task: 1, Test name: Cross device elements at mobile size collapses the footer li
 Task: 1, Test name: Cross device elements at mobile size does not show the grid options, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size shows product options, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Fail
 Task: 1, Test name: Cross device elements at mobile size does not show menu categories, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
+Task: 1, Test name: Cross device elements at mobile size hides the filter text, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
+Task: 1, Test name: Cross device elements at mobile size shows the filter icon, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Pass
 Task: 3, Test name: Product details at laptop size shows product details, Browser: edge_chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
 Task: 3, Test name: Product details at tablet size shows product details, Browser: edge_chrome, Viewport: 785 x 700, Device: Tablet, Status: Fail
 Task: 3, Test name: Product details at mobile size shows product details, Browser: edge_chrome, Viewport: 516 x 700, Device: Mobile, Status: Fail
