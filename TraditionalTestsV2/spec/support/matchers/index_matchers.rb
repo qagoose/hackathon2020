@@ -219,4 +219,22 @@ module IndexMatchers
       driver.find_element(xpath: "//a[text()='#{category}']").displayed?
     end
   end
+
+  RSpec::Matchers.define :show_header_heart do
+    match do |driver|
+      driver.find_element(class: 'wishlist').displayed?
+    end
+  end
+
+  RSpec::Matchers.define :show_filter_text do
+    match do |driver|
+      driver.find_element(xpath: '//span[text()="Filters"]').displayed?
+    end
+  end
+
+  RSpec::Matchers.define :show_filter_icon do
+    match do |driver|
+      driver.find_element(id: 'ti-filter').displayed?
+    end
+  end
 end

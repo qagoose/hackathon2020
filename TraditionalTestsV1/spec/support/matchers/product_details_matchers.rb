@@ -84,6 +84,4 @@ RSpec::Matchers.define :have_discount do |discount|
   end
 end
 
-
-
 end
